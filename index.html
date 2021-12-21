@@ -1,1 +1,161 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio | Responsive Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="toggle" onclick="toggleMenu()"></div>
+
+    <section class="banner" id="home">
+        <div class="imgSidebar">
+            <img src="./images/kevin-canlas-cFFEeHNZEqw-unsplash.jpg">
+        </div>
+        <div class="contentBx">
+            <h5 class="logoText">< my_portfolio /></h5>
+            <div>
+                <h4><span>Hello</span>, I'm</h4>
+                <h2>Chris Fennelly</h2>
+                <h4>Full Stack Developer.</h4>
+                <p>I am currently completing the software development bootcamp program with Northcoders, specialising in full stack web development. I am moving to a career in software development because of the fast-paced and exciting industry that exists here; it is an environment where an out-sized difference can be made by an individual, and the ever-changing landscape provides a continual learning opportunity.</p>
+                <a href="#about" class="btn">About me</a>
+            </div>
+            <ul class="sci">
+                <li><a href="#"><img src="./images/github.png"></a></li>
+                <li><a href="#"><img src="./images/linkedin.png"></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title white">
+            <h2>About Me</h2>
+            <p>Aspiring full stack developer; former electrical design engineer.</p>
+        </div>
+        <div class="content">
+            <div class="textBx">
+                <p>I am currently completing the software development bootcamp program with Northcoders, specialising in full stack web development. I am transitioning to a career in software development because of the fast-paced and exciting industry that exists here; it is an environment where an out-sized difference can be made by an individual, and the ever-changing landscape provides a continual learning opportunity. My previous career was as an Electrical Design Engineer. I am a Chartered Engineer, and my last position was as Principal Engineer, operating as the lead engineer for some of the company’s most complex projects. This role required management of internal resources, and working with external stakeholders to produce the design solution that best fits their needs. <br><br>Completed the full stack software development bootcamp with Northcoders. Following industry best-practices to become a career-ready Junior Full Stack Developer. Whilst developing this technical knowledge, we have followed a TDD approach, pair-programmed, and managed version control  with git.</p>
+            </div>
+            <div class="imgBx">
+                <img src="./images/DSC07057.JPG">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="title">
+            <h2>Skills</h2>
+            <p>I am currently completing the software development bootcamp program with Northcoders, specialising in full stack web development. This couples with my previous career experience as a consultant electrical design engineer, working with clients and stakeholders to produce design solutions that best fit their needs.</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <img src="./images/software-development.png">
+                <h2>Software principles</h2>
+                <p>Having had prior coding experience using for loops and if & while statements, during the course of the bootcamp I have gained experience and confidence developing a far wider spectrum of coding tools. This includes using Node.js, developing functional programs and using asynchronous code. Much of this experience has been gained whilst pair-programming; switching between driver and navigator roles and tacking the problems at hand from different perspectives.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/website-structure.png">
+                <h2>Back-end development</h2>
+                <p>Using Node.js to run the back-end, I have built and tested RESTful APIs, allowing for CRUD operations. These servers have been built using Express and following MVC architecture.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/database-setting.png">
+                <h2>Databases</h2>
+                <p>Experiences with relational and non-relational databases. This has been developed using PSQL and MongoDB, and includes setting up seeding scripts to manage the process of populating Test / Development data.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/coding.png">
+                <h2>Front-end development</h2>
+                <p>Experience producing responsive web designs; primarily using React. This includes experience using the React Router, and querying APIs to provide a seamless experience for the user, such as implementing optimistic rendering where suitable.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/website-layout.png">
+                <h2>Web development</h2>
+                <p>In addition to acquiring foundational knowledge in JavaScript and implementing basic manipulation of the DOM, I have also developed skills in structuring and styling web pages with HTML and CSS. In addition, I have some introductory experience with frameworks, including Bootstrap and MUI.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/mobile-application.png">
+                <h2>Mobile-first design</h2>
+                <p>Mobile-first design has been an important element in the projects I've developed. I have experience developing React Native projects, which has built upon my experience using React.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/branching.png">
+                <h2>Version control</h2>
+                <p>Version control with Git and Github have been a core element of my software development experience. This also includes experience of branching and merging code; both on individual projects and as part of a larger team.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/testing.png">
+                <h2>Testing</h2>
+                <p>The above experience has all matured on the philosophy of Test-Driven Development. The importance of unit, integration and functional testing has been a cornerstone to gaining this experience. I have experience using Jest, Supertest, and am in the process of developing a better understanding of front-end testing frameworks.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="./images/publisher.png">
+                <h2>Languages</h2>
+                <p>The above knowledge is primarily based on a working knowledge of JavaScript. I have a basic understanding of Python, and am in the process of learning C# (with the intention of using this as a framework to better understand the benefits of OOP).</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="title">
+            <h2>Recent Projects</h2>
+            <p>Below are a selection of projects showcasing this experience as a full stack developer.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./images/krzysztof-kowalik-KiH2-tdGQRY-unsplash.jpg">
+                </div>
+                <div class="textBx">
+                    <h3>Project: RESTful API</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./images/lautaro-andreani-UYsBCu9RP3Y-unsplash.jpg">
+                </div>
+                <div class="textBx">
+                    <h3>Project: Responsive news site</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./images/desola-lanre-ologun-xvcdAmbXcOI-unsplash.jpg">
+                </div>
+                <div class="textBx">
+                    <h3>Project: Portfolio website</h3>
+                </div>
+            </div>
+            <div class="workBx">
+                <div class="imgBx">
+                    <img src="./images/lars-kienle-IlxX7xnbRF8-unsplash.jpg">
+                </div>
+                <div class="textBx">
+                    <h3>Project: Group project placeholder</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="sidebar">
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about"  onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();"">Skills</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Projects</a></li>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const sidebar = document.querySelector('.sidebar');
+            menuToggle.classList.toggle('active')
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
