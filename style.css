@@ -156,7 +156,7 @@ p
 }
 .sidebar ul li a:hover
 {
-    color: #00bcd4;
+    color: #00ab44;
 }
 
 .sci
@@ -190,7 +190,7 @@ p
 .title h2
 {
     position: relative;
-    color: #00bcd4;
+    color: #00ab44;
     font-size: 1.8em;
     font-weight: 700;
     letter-spacing: 1px;
@@ -394,7 +394,7 @@ p
 }
 .contact .contactForm .row input[type="submit"]
 {
-    background: #00bcd4;
+    background: #00ab44;
     color: #fff;
     padding: 10px 30px;
     display: inline-block;
